@@ -1,27 +1,61 @@
-body{
-    background-color: rgb(236, 243, 239);
-}
-h1 {
-    color:rgb(35, 2, 71);
+.container {
+    margin: auto;
+    width: 90%;
+    height: 145px;
     text-align: center;
 }
-header {
-    font-size: medium;
-    text-align: center;
+
+.box-search {
+    background-color: rgb(238, 238, 238);
+    width: auto;
+    height: 60px;
+    margin-bottom: 2px;
 }
-.p {
-    text-align: center;
+
+.box-left {
+    background-color: rgb(126, 229, 218);
+    width: 40%;
+    height: 76px;
+    float: left;
+    position: relative;
 }
-.resimli img {
-    height: 350px;
-    width: 350px;
-     
+
+.box-left p {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
-footer { 
-    font-size: medium;
-    text-align: center;
+
+.box-middle {
+    background-color: rgb(129, 212, 203);
+    width: 19.7%;
+    height: 76px;
+    float: left;
+    font-size: small;
+    margin: 0 0.15%;
+    position: relative;
 }
-section { 
-    text-align: center;
+
+.box-middle p {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
-    
+
+.box-right {
+    background-color: rgb(109, 185, 176);
+    width: 40%;
+    height: 76px;
+    float: left;
+    font-size: small;
+}
+
+.clear {
+    clear: both;
+}
